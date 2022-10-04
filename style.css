@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@900&display=swap');
+
+body {
+    background-color: #0D192C;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.divmain {
+    display: block;
+    margin: auto;
+    width: 350px;
+    padding: 24px;
+    border-radius: 15px;
+
+    background-color: #15263F;
+}
+
+
+.img {
+
+    width: 302px;
+    border-radius: 8px;
+
+}
+
+.viewback {
+    display: flex;
+    height: 302px;
+
+    width: 302px;
+    border-radius: 8px;
+}
+
+
+.eye {
+    position: relative;
+    cursor: pointer;
+    display: none;
+    height: 40px;
+    width: 44px;
+    top: 50%;
+    right: 55%;
+
+}
+
+.viewback:hover .eye {
+    display: block;
+
+}
+
+
+.img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+
+
+
+
+h1 {
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    padding: 24px 0px 16px;
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #00FFF8;
+}
+
+.p1 {
+    font-family: 'Outfit', sans-serif;
+    color: #8BACD9;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+.eth {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 24px;
+}
+
+.ethp {
+    font-family: 'Outfit', sans-serif;
+    color: aqua;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.clocktext {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8BACD9
+}
+
+.avatar {
+
+    width: 33px;
+    height: 33px;
+    margin-top: 24px
+}
+
+.avat {
+    display: flex;
+
+}
+
+.avat p {
+    font-family: 'Outfit', sans-serif;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+
+}
+
+.avatartext {
+    color: #8BACD9;
+}
+
+.line {
+    border: 1px solid #2E405A;
+    background-color: #2E405A;
+}
+
+.jules {
+
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+
+
+    margin-left: 10px;
+    height: 20px;
+    width: 93px;
+    left: 86px;
+    top: 0px;
+    border-radius: nullpx;
+    color: #00FFF8;
+    text-decoration: none;
+}
